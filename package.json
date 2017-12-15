@@ -1,0 +1,16 @@
+{
+  "name": "hide-menu-bar",
+  "main": "./main",
+  "engines": {
+    "mailspring": ">=1.0.8"
+  },
+  "description": "Plugin for mailspring : hide the menu bar (Alt to toggle)",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "scripts": {
+    "build": "babel main.es6 -d ."
+  }
+}
